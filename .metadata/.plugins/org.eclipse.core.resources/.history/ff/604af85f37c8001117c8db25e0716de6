@@ -1,0 +1,8 @@
+package com.cibertec.semana04.model;
+
+public class Reporte {
+	
+	private Long idEditorial;
+	private String nombreEditorial;
+	private Long cantidadLibros;
+}

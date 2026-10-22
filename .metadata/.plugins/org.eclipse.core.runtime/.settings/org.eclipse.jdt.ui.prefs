@@ -1,0 +1,10 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Map"><rhs name\="java.util.HashMap"/></lhs><lhs name\="net.sf.jasperreports.engine.data.JRAbstractBeanDataSource"><rhs name\="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/></lhs><lhs name\="net.sf.jasperreports.engine.JRRewindableDataSource"><rhs name\="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/></lhs><lhs name\="net.sf.jasperreports.engine.JRDataSource"><rhs name\="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/></lhs><lhs name\="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"><rhs name\="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/></lhs><lhs name\="net.sf.jasperreports.engine.base.JRBaseReport"><rhs name\="net.sf.jasperreports.engine.JasperReport"/></lhs><lhs name\="net.sf.jasperreports.engine.JRReport"><rhs name\="net.sf.jasperreports.engine.JasperReport"/></lhs><lhs name\="net.sf.jasperreports.engine.JRDefaultStyleProvider"><rhs name\="net.sf.jasperreports.engine.JasperReport"/></lhs><lhs name\="net.sf.jasperreports.engine.JRPropertiesHolder"><rhs name\="net.sf.jasperreports.engine.JasperReport"/></lhs><lhs name\="net.sf.jasperreports.engine.JRIdentifiable"><rhs name\="net.sf.jasperreports.engine.JasperReport"/></lhs><lhs name\="net.sf.jasperreports.engine.design.events.JRChangeEventsSupport"><rhs name\="net.sf.jasperreports.engine.JasperReport"/></lhs><lhs name\="net.sf.jasperreports.engine.JasperReport"><rhs name\="net.sf.jasperreports.engine.JasperReport"/></lhs></history>
+content_assist_number_of_computers=14
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=23
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

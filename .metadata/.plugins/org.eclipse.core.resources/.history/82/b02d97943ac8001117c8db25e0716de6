@@ -1,0 +1,5 @@
+package com.cibertec.semana04.controllers;
+
+public class ReportController {
+
+}

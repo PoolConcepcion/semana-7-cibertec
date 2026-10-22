@@ -1,0 +1,39 @@
+package com.cibertec.semana04.controllers;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.cibertec.semana04.model.Libro;
+import com.cibertec.semana04.service.BibliotecaService;
+
+import jakarta.servlet.http.HttpServletResponse;
+import net.sf.jasperreports.engine.JRException;
+
+@Controller
+@RequestMapping("/report")
+public class ReportController {
+
+	@Autowired
+	private BibliotecaService bibliotecaService;
+	
+	@GetMapping("/reportbook")
+	public void report(HttpServletResponse response) throws JRException, IOException{
+		
+		InputStream jasStream = this.getClass().getResourceAsStream("/reportes/report_books.jasper");
+		
+		Map<String, Object> params = new HashMap<>();
+		params.put("usuario", "Jorge Ventura");
+		
+		List<Libro> listLibros = new ArrayList<>();
+		
+	}
+}
